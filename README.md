@@ -51,13 +51,14 @@ Proyek ini membangun model **Convolutional Neural Network (CNN)** untuk mengklas
 ### Contoh Gambar per Kelas
 
 <div align="center">
-  <img src="images/sample_images.png" alt="Contoh gambar dari setiap kelas" width="80%">
+<img width="1480" height="1490" alt="image" src="https://github.com/user-attachments/assets/e6aff683-4f13-4812-a5c6-92b62e1ac2bb" />
+
 </div>
 
 ### Distribusi Data
 
 <div align="center">
-  <img src="images/distribusi_data.png" alt="Distribusi jumlah gambar per kelas" width="50%">
+<img width="1480" height="1490" alt="image" src="https://github.com/user-attachments/assets/19e81e5b-f4ca-4541-9c92-dc99c5514eab" />
 </div>
 
 ## 🔄 Alur Pengerjaan
@@ -107,8 +108,9 @@ Input (64×64×3)
 | **Test** | 3.017 | **90,52%** |
 
 <div align="center">
-  <img src="images/akurasi_model.png" alt="Grafik akurasi model" width="45%">
-  <img src="images/loss_model.png" alt="Grafik loss model" width="45%">
+<img width="577" height="463" alt="image" src="https://github.com/user-attachments/assets/43c617b6-e024-4d8f-a6b8-27332d8e4e5a" />
+
+<img width="572" height="463" alt="image" src="https://github.com/user-attachments/assets/44737efa-ad2c-43b1-a2b3-cf69f1107ffa" />
 </div>
 
 > 💡 Selisih akurasi training dan validasi menunjukkan model cenderung *overfitting* ringan.
