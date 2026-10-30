@@ -58,7 +58,7 @@ Proyek ini membangun model **Convolutional Neural Network (CNN)** untuk mengklas
 ### Distribusi Data
 
 <div align="center">
-<img width="1480" height="1490" alt="image" src="https://github.com/user-attachments/assets/19e81e5b-f4ca-4541-9c92-dc99c5514eab" />
+<img width="575" height="547" alt="image" src="https://github.com/user-attachments/assets/bc04d342-3437-4cd4-90a2-693e41e38853" />
 </div>
 
 ## 🔄 Alur Pengerjaan
@@ -154,13 +154,6 @@ x = np.expand_dims(x, axis=0)
 pred = model.predict(x)
 print(f"Prediksi: {kelas[np.argmax(pred)]} ({np.max(pred)*100:.1f}%)")
 ```
-
-## 🔭 Pengembangan Selanjutnya
-
-- [ ] Mencoba *transfer learning* (MobileNet / DenseNet121) untuk akurasi lebih tinggi
-- [ ] Memperbesar resolusi input dari 64×64
-- [ ] Membagi data sebelum augmentasi agar evaluasi lebih objektif
-- [ ] Membuat demo web dengan model TensorFlow.js
 
 ## 👤 Author
 
